@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.6;
 }
 
@@ -69,14 +69,14 @@ section {
 
 .primary-title {
   font-size: 4rem;
-  font-size: clamp(3rem, 5vw+1rem, 4.5rem);
+  font-size: clamp(3rem, calc(5vw+1rem), 4.5rem);
   line-height: 1.1;
   text-transform: uppercase;
 }
 
 .section-title {
   text-align: center;
-  font-size: clamp(2.5rem, 5vw+1rem, 4rem);
+  font-size: clamp(2.5rem, calc(5vw+1rem), 4rem);
   line-height: 1;
   color: #2e7083;
   margin-bottom: 5rem;
@@ -159,7 +159,7 @@ section {
 }
 
 .product__title {
-  font-size: clamp(3rem, 5vw+1rem, 4rem);
+  font-size: clamp(3rem, calc(5vw+1rem), 4rem);
   line-height: 1.1;
   color: #fff;
   text-transform: uppercase;
